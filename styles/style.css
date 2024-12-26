@@ -1,0 +1,232 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #A50029, #003B5C); /* Colores FC Barcelona */
+    color: #fff;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+
+/* Header styles */
+header {
+    background-color: #003B5C; /* Azul del Barcelona */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #FDB913; /* Amarillo del Barcelona */
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #FDB913;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #A50029; /* Rojo del Barcelona */
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+}
+
+.images-section, .championships-section {
+    margin-bottom: 40px;
+}
+
+.images-section h2, .championships-section h2 {
+    color: #FDB913; /* Amarillo del Barcelona */
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #FDB913; /* Amarillo del Barcelona */
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    background-color: #003B5C; /* Azul del Barcelona */
+    color: #FDB913; /* Amarillo del Barcelona */
+}
+
+/* Footer styles */
+footer {
+    background-color: #003B5C; /* Azul del Barcelona */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FDB913;
+}
+
+
+/* Section styles */
+.championships-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.championships-section h2 {
+    text-align: center;
+    color: #FDB913; /* Amarillo del Barcelona */
+    margin-bottom: 20px;
+}
+
+.championships-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.championships-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1 1 200px; /* Flexibilidad de los elementos */
+}
+
+.championships-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.championships-container li:last-child {
+    border-bottom: none; /* Eliminar borde del último elemento */
+}
+
+.championships-container li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.championships-container span {
+    font-weight: bold;
+    color: #FDB913; /* Amarillo del Barcelona */
+}
+
+/* Section styles */
+.legends-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.legends-section h2 {
+    text-align: center;
+    color: #FDB913; /* Amarillo del Barcelona */
+    margin-bottom: 20px;
+}
+
+.legends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.legend {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.legend:hover {
+    transform: translateY(-10px);
+}
+
+.legend h3 {
+    color: #FDB913; /* Amarillo del Barcelona */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.legend p {
+    margin: 10px 0;
+}
+
+.legend ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.legend li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+    color: #fff;
+}
+
+.legend li span {
+    font-weight: bold;
+    color: #FDB913; /* Amarillo del Barcelona */
+}

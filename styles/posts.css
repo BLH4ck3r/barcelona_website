@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec; /* Fondo claro */
+    color: #333;
+}
+
+.posts-header {
+    background-color: #a50044; /* Grana */
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.posts-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.posts-header nav a {
+    color: #ffcc00; /* Dorado */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.posts-header nav a:hover {
+    color: #fff; /* Blanco para contraste */
+}
+
+.posts-main {
+    padding: 2rem;
+}
+
+#create-post {
+    background-color: #004d98; /* Azul oscuro */
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#create-post h2 {
+    margin-bottom: 1.5rem;
+    color: #ffcc00; /* Dorado */
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.create-post-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffcc00; /* Dorado */
+}
+
+.create-post-form input,
+.create-post-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ffcc00; /* Borde dorado */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#create-post button {
+    background-color: #ffcc00;
+    color: #004d98; /* Azul */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#create-post button:hover {
+    background-color: #e6b800; /* Amarillo dorado más oscuro */
+}
+
+#posts-list {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#posts-list h2 {
+    font-size: 1.8rem;
+    color: #a50044; /* Grana */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.post {
+    border-bottom: 2px solid #ececec;
+    padding: 1.5rem 0;
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #004d98; /* Azul */
+    font-weight: bold;
+}
+
+.post p {
+    margin: 0.8rem 0;
+    color: #555; /* Color del contenido de la publicación */
+}
+
+.post small {
+    display: flex;
+    align-items: center;
+    color: #a50044; /* Grana */
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.post small img.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Para asegurar el recorte redondeado */
+}
+
+.post-actions {
+    margin-top: 1rem;
+}
+
+.post-actions button {
+    background-color: #004d98; /* Azul oscuro */
+    color: #ffcc00; /* Dorado */
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.post-actions button:hover {
+    background-color: #a50044; /* Grana */
+}
+
+.comments {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #ececec;
+}
+
+.comments h4 {
+    font-size: 1.2rem;
+    color: #004d98;
+    font-weight: bold;
+}
+
+.comments .comment {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comments .comment p {
+    margin: 0.8rem 0;
+    color: #555; /* Color del contenido de la publicación */
+    font-family: 'Arial', sans-serif; /* Fuente del contenido de la publicación */
+    line-height: 1.6; /* Interlineado consistente con el contenido de la publicación */
+}
+
+.comments .comment small {
+    display: flex;
+    align-items: center;
+    color: #a50044; /* Grana */
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.comments .comment small img.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Para asegurar el recorte redondeado */
+}
+
+.comments textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.comments button {
+    background-color: #ffcc00;
+    color: #004d98;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.comments button:hover {
+    background-color: #e6b800;
+}
+
+.posts-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004d98;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.posts-footer p {
+    margin: 0;
+}

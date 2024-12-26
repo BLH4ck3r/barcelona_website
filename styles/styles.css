@@ -1,0 +1,208 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #A50029, #003B5C); /* Colores FC Barcelona */
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: #003B5C; /* Azul del Barcelona */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #FDB913; /* Amarillo del Barcelona */
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #FDB913;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #A50029; /* Rojo del Barcelona */
+}
+
+/* Login container styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra más grande */
+}
+
+.login-box h2 {
+    color: #FDB913; /* Amarillo del Barcelona */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.input-group input {
+    width: calc(100% - 22px); /* Ajusta el ancho para que no sea deforme */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+.input-group input:focus {
+    border-color: #FDB913; /* Amarillo del Barcelona */
+    outline: none;
+}
+
+/* Button styles */
+.submit-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-group button {
+    width: 80%;
+    padding: 10px;
+    background-color: #A50029; /* Rojo del Barcelona */
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.submit-group button:hover {
+    background-color: #003B5C; /* Azul del Barcelona */
+}
+
+/* Error message styling */
+.error {
+    color: #FF0000; /* Rojo para errores */
+    font-size: 14px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003B5C; /* Azul del Barcelona */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FDB913;
+}
+
+
+/* Formulario principal */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 28px;
+    color: #005bac;
+    margin-bottom: 20px;
+}
+
+/* Grupos de entrada */
+.input-group1 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group1 label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.input-group1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group1 input:focus {
+    border-color: #005bac;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 91, 172, 0.5);
+}
+
+/* Botón de registro */
+.submit-group button {
+    background-color: #005bac;
+    color: #fcbf49;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-group button:hover {
+    background-color: #a50035;
+    color: #ffffff;
+}
+
+/* Mensaje de error */
+.error {
+    color: #a50035;
+    background-color: #f9d6da;
+    padding: 10px;
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}

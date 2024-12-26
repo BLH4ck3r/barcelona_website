@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #A50029, #003B5C); /* Colores FC Barcelona */
+    color: #fff;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+/* Header styles */
+header {
+    background-color: #003B5C; /* Azul del Barcelona */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #FDB913; /* Amarillo del Barcelona */
+}
+
+header nav a {
+    color: #FDB913;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #A50029; /* Rojo del Barcelona */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #A50029; /* Rojo del Barcelona */
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #003B5C; /* Azul del Barcelona */
+}
+
+/* Footer styles */
+footer {
+    background-color: #003B5C; /* Azul del Barcelona */
+    text-align: center;
+    padding: 10px;
+    color: #FDB913;
+}
